@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/spf13/viper"
+	"github.com/pedidopago/viper"
 )
 
 func getProject() *Project {
@@ -17,7 +17,7 @@ func getProject() *Project {
 		Legal:        getLicense(),
 		Copyright:    copyrightLine(),
 		AppName:      "cmd",
-		PkgName:      "github.com/spf13/cobra/cobra/cmd/cmd",
+		PkgName:      "github.com/pedidopago/cobra/cobra/cmd/cmd",
 		Viper:        true,
 	}
 }

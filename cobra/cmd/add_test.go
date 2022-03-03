@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/spf13/viper"
+	"github.com/pedidopago/viper"
 )
 
 func TestGoldenAddCmd(t *testing.T) {

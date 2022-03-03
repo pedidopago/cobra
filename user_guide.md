@@ -32,7 +32,7 @@ func main() {
 Cobra provides its own program that will create your application and add any
 commands you want. It's the easiest way to incorporate Cobra into your application.
 
-For complete details on using the Cobra generator, please read [The Cobra Generator README](https://github.com/spf13/cobra/blob/master/cobra/README.md)
+For complete details on using the Cobra generator, please read [The Cobra Generator README](https://github.com/pedidopago/cobra/blob/master/cobra/README.md)
 
 ## Using the Cobra Library
 
@@ -76,8 +76,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/spf13/cobra"
-	"github.com/spf13/viper"
+	"github.com/pedidopago/cobra"
+	"github.com/pedidopago/viper"
 )
 
 var (
@@ -171,7 +171,7 @@ package cmd
 import (
   "fmt"
 
-  "github.com/spf13/cobra"
+  "github.com/pedidopago/cobra"
 )
 
 func init() {
@@ -198,7 +198,7 @@ package cmd
 import (
   "fmt"
 
-  "github.com/spf13/cobra"
+  "github.com/pedidopago/cobra"
 )
 
 func init() {
@@ -269,7 +269,7 @@ command := cobra.Command{
 
 ### Bind Flags with Config
 
-You can also bind your flags with [viper](https://github.com/spf13/viper):
+You can also bind your flags with [viper](https://github.com/pedidopago/viper):
 ```go
 var author string
 
@@ -283,7 +283,7 @@ In this example, the persistent flag `author` is bound with `viper`.
 **Note**: the variable `author` will not be set to the value from config,
 when the `--author` flag is provided by user.
 
-More in [viper documentation](https://github.com/spf13/viper#working-with-flags).
+More in [viper documentation](https://github.com/pedidopago/viper#working-with-flags).
 
 ### Required flags
 
@@ -355,7 +355,7 @@ import (
   "fmt"
   "strings"
 
-  "github.com/spf13/cobra"
+  "github.com/pedidopago/cobra"
 )
 
 func main() {
@@ -522,7 +522,7 @@ package main
 import (
   "fmt"
 
-  "github.com/spf13/cobra"
+  "github.com/pedidopago/cobra"
 )
 
 func main() {
